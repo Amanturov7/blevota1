@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "id": {
+      "type": "long"
+    },
+    "hp_name": {
+      "type": "keyword"
+    },
+    "system_name": {
+      "type": "keyword"
+    },
+    "system_id": {
+      "type": "integer"
+    },
+    "waterchannel": {
+      "type": "keyword"
+    },
+    "watercourse": {
+      "type": "keyword"
+    },
+    "hp_type_id": {
+      "type": "integer"
+    },
+    "sensor_imei": {
+      "type": "long"
+    },
+    "resp_user_id": {
+      "type": "integer"
+    },
+    "user_name": {
+      "type": "keyword"
+    },
+    "timezone": {
+      "type": "keyword"
+    },
+    "calibrated": {
+      "type": "boolean"
+    },
+    "create_date": {
+      "type": "date"
+    },
+    "model_link": {
+      "type": "keyword"
+    },
+    "max_level": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "id": {
+      "type": "keyword"
+    },
+    "system_id": {
+      "type": "long"
+    },
+    "utc": {
+      "type": "date"
+    },
+    "total_intake": {
+      "type": "float"
+    },
+    "intake": {
+      "type": "float"
+    },
+    "supply": {
+      "type": "float"
+    },
+    "discard": {
+      "type": "float"
+    }
+  }
+}

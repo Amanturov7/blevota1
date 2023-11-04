@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "id": {
+      "type": "keyword"
+    },
+    "system_id": {
+      "type": "long"
+    },
+    "utc": {
+      "type": "date"
+    },
+    "hpid": {
+      "type": "long"
+    },
+    "flow": {
+      "type": "float"
+    },
+    "level": {
+      "type": "keyword"
+    },
+    "imei": {
+      "type": "long"
+    }
+  }
+}
